@@ -12,6 +12,16 @@
     <title>Perritos</title>
 </head>
 <body onload="crearTabla()">
+    <div>
+        <label for="tamanio">opciones de tamaño --></label>
+        <select name="tamanio" id="tamanio" onchange="filtroDeTmanio()">
+            <option value="grande">grande</option>
+            <option value="mediano">mediano</option>
+            <option value="pequeño">pequenio</option>
+            <option value="mostrar">Mostrar Todos</option>
+        </select>
+    </div>
     <table id="tablaPerritos"></table>
+
 </body>
 </html>
